@@ -22,7 +22,7 @@ if st.button("비중 계산하기"):
                
 #        if data.empty:
 #            st.error("데이터를 불러오지 못했습니다. 티커를 확인해 주세요.")
-           if df.empty:
+          if df.empty:
                  st.error(f" '{ticker}' 데이터를 찾을 수 없습니다. 티커를 확인해 주세요. (예: SPY 또는 360750.KS)")
             else:
             # 종가 데이터 정리
